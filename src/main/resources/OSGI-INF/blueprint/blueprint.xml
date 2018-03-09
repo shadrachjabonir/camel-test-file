@@ -31,7 +31,7 @@
     -->
     <camelContext id="_context1" xmlns="http://camel.apache.org/schema/blueprint">
         <route id="_route1">
-            <from id="_from1" uri="file:/Users/sjabonir/Documents/workspace/test/camel-file?delete=true"/>
+            <from id="_from1" uri="file:/home/fuse/test?delete=true"/>
             <log id="_log1" message="${body}"/>
         </route>
     </camelContext>
